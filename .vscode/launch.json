@@ -8,12 +8,13 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Launch Program",
+   //   "name": "Launch Program",
       "skipFiles": [
         "<node_internals>/**"
       ],
       "program": "${workspaceFolder}/index.js",
-      "localRoot": "${workspaceRoot}",
+      //"localRoot": "${workspaceRoot}",
+
       "stopOnEntry": true
     }
   ]
